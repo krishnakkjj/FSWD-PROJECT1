@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;  
+}
+
+    body {
+        background-image: url("/assets/f1.png"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height:500px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        border-radius: 15px;
+      }
+nav {
+    display:flex;
+    width: 100%;
+    
+}
+.logo{
+    display: flex;
+    height: 30px;
+    width: 20%;
+    margin-top:30px;
+    margin-left:30px;    
+}
+.middle{
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    float: left;
+}
+.toparea{
+    width:20%;
+    margin-top:30px;
+    color: blue;
+    float:left;
+    
+}
+nav div ol li {
+    display:flex;
+    align-items: center;
+    list-style: none;
+    position: static;
+    float: left;
+    margin-top:30px;
+    margin-left:120px;
+    color: yellow;
+    font-size: 20px;
+     }  
+ main div h1{
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        color:yellow;
+        font-size:80px;
+        line-height: 90px;
+     }
+button{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight:bold;
+}
+button:hover{
+    background-color: blue;
+    color:black;
+}
+     .lastarea{
+        margin-left: 85%;
+        float: left;
+     }
